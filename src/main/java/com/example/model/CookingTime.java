@@ -1,6 +1,15 @@
 package com.example.model;
 
-public class PreparationTime {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class CookingTime {
     private int hours;
     private int minutes;
 }

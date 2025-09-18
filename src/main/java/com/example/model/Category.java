@@ -1,4 +1,23 @@
 package com.example.model;
 
 public enum Category {
+    ENTRANTES_Y_APERITIVOS,
+    SOPAS_Y_CREMAS,
+    ENSALADAS,
+    PLATOS_PRINCIPALES,
+    GUARNICIONES,
+    PASTELERIA,
+    POSTRES,
+    BEBIDAS,
+    SALSAS_Y_ADEREZOS,
+    SNACKS,
+    DESAYUNO,
+    ALMUERZO,
+    CENA,
+    VEGETARIANO,
+    VEGANO,
+    MARISCOS,
+    CARNE,
+    AVES,
+    INTERNACIONAL
 }
