@@ -12,6 +12,7 @@ import java.util.Arrays;
 import java.util.List;
 
 @SpringBootApplication
+@EnableSpringDataWebSupport(pageSerializationMode = EnableSpringDataWebSupport.PageSerializationMode.VIA_DTO)
 public class SpringServerlessCrudTutorialApplication {
 
     public static void main(String[] args) {

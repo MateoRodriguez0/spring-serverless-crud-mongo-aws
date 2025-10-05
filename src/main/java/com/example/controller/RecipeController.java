@@ -18,7 +18,7 @@ public class RecipeController {
     private final RecipeService recipeService;
 
     @GetMapping
-    public ResponseEntity<Page<Recipe>> listAll(Pageable pageable){
+    public ResponseEntity<Page<Recipe>> listAll(@PageableDefault(size = 10) Pageable pageable){
         return ResponseEntity.ok(recipeService.listAll(pageable));
     }
 
