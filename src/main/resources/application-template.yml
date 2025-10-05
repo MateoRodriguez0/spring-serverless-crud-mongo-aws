@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-serverless-crud-tutorial
+  data:
+    mongodb:
+      uri: mongodb+srv://${user_db}:${password_db}@${host_db}/recipes_db?retryWrites=true&w=majority&appName=${appName}&maxIdleTimeMS=60000
