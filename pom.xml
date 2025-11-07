@@ -28,6 +28,7 @@
     </scm>
     <properties>
         <java.version>21</java.version>
+        <start-class>com.example.SpringServerlessCrudTutorialApplication</start-class>
     </properties>
     <dependencies>
         <dependency>
@@ -100,5 +101,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
